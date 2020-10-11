@@ -1,0 +1,18 @@
+{
+ "server":"http://127.0.0.1:4723/wd/hub",
+ "capabilities":{
+ "appPackage":"com.coalshastralive.android.app",
+ "appActivity":"com.coalshastralive.android.app.activity.Splash_Screen_Activity"
+ "automationName":"UiAutomator2",
+ "platformName":"Android"
+ },
+ "environment":{
+ "Samsung":{
+ "deviceName":"emulator",
+ "platformVersion":"8.1.0"
+ },
+ "Sony":{
+ "deviceName":"SonyDevice",
+ "platformVersion":"5.1.1"
+ }}
+}
